@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=NetJ2_5 Pin=MCU1-10
+Removed Pin From Net: NetName=NetJ2_4 Pin=MCU1-11
+Removed Pin From Net: NetName=NetJ2_3 Pin=MCU1-12
+Removed Pin From Net: NetName=NetJ2_2 Pin=MCU1-13
+Added Pin To Net: NetName=NetJ2_2 Pin=MCU1-10
+Added Pin To Net: NetName=NetJ2_3 Pin=MCU1-11
+Added Pin To Net: NetName=NetJ2_4 Pin=MCU1-12
+Added Pin To Net: NetName=NetJ2_5 Pin=MCU1-13
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=MCU1-63
+Added Net: Name=NetJ2_1
+Added Room: Name=Layout_v1

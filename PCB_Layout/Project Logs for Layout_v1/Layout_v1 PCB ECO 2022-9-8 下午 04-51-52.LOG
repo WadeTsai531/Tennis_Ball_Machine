@@ -1,0 +1,13 @@
+Added Component: Designator=J1(Power_2P)
+Added Component: Designator=J2(Switch_3P)
+Added Pin To Net: NetName=VCC Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=VCC Pin=J2-1
+Added Pin To Net: NetName=VCC Pin=J2-1
+Added Pin To Net: NetName=VDD Pin=J2-2
+Added Pin To Net: NetName=VDD Pin=J2-2
+Added Pin To Net: NetName=VCC_2 Pin=J2-3
+Added Pin To Net: NetName=VCC_2 Pin=J2-3
+Added Member To Class: ClassName=Layout_v1 Member=Component J1 Power
+Added Member To Class: ClassName=Layout_v1 Member=Component J2 Switch
+Added Room: Name=Layout_v1

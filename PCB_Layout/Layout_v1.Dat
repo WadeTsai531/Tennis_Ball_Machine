@@ -1,0 +1,10 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~Layout_v1.PrjPCB|ReportField=ProjectFullPath~D:\Wade\Project\Tennis_Ball_Machine\PCB_Layout\Layout_v1.PrjPCB|ReportField=Title~Bill of Materials For Project [Layout_v1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~11|ReportField=ReportTime~¤U¤È 05:55:54|ReportField=ReportDate~2022/9/8|ReportField=ReportDateTime~2022/9/8 ¤U¤È 05:55:54|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2022/9/8|ReportField=CurrentTime~¤U¤È 05:55:53|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Wade\Project\Tennis_Ball_Machine\PCB_Layout\Layout_v1.SchDoc|ReportField=DocumentName~Layout_v1.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2022/9/8|ReportField=Organization~|ReportField=ProjectName~Layout_v1.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~Layout_v1.PrjPCB|ReportField=DataSourceFullPath~D:\Wade\Project\Tennis_Ball_Machine\PCB_Layout\Layout_v1.PrjPCB
+Power||J1|Power_2P|Power|1
+Switch||J2|Switch_3P|Switch|1
+ICP||J3|ICP_4P|ICP|1
+Servo||J4|Servo_3P|Servo|1
+Light||J5, J6|Servo_3P|Servo|2
+Touch||J7|Servo_3P|Servo|1
+UART||J8|UART_4P|UART|1
+L298N||J9, J10|L298n-6P|L298N|2
+HT66F2390||MCU|HT66F2390_64P|HT66F2390|1

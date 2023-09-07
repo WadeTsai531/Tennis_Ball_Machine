@@ -1,0 +1,65 @@
+Added Component: Designator=*(HT66F2390_64P)
+Added Component: Designator=J1(Servo_3P)
+Added Component: Designator=J2(UART_4P)
+Added Component: Designator=J3(ICP_4P)
+Added Component: Designator=J4(L298n-6P)
+Added Component: Designator=J5(L298n-6P)
+Added Component: Designator=J6(Switch_3P)
+Added Pin To Net: NetName=VCC Pin=*-6
+Added Pin To Net: NetName=GND Pin=*-7
+Added Pin To Net: NetName=PG4 Pin=*-10
+Added Pin To Net: NetName=PG5 Pin=*-11
+Added Pin To Net: NetName=PG6 Pin=*-12
+Added Pin To Net: NetName=PG7 Pin=*-13
+Added Pin To Net: NetName=PA2 Pin=*-16
+Added Pin To Net: NetName=PA0 Pin=*-19
+Added Pin To Net: NetName=PA6 Pin=*-20
+Added Pin To Net: NetName=PA7 Pin=*-21
+Added Pin To Net: NetName=VCC_2 Pin=*-22
+Added Pin To Net: NetName=GND Pin=*-23
+Added Pin To Net: NetName=PG3 Pin=*-35
+Added Pin To Net: NetName=PG2 Pin=*-36
+Added Pin To Net: NetName=PG1 Pin=*-37
+Added Pin To Net: NetName=PG0 Pin=*-38
+Added Pin To Net: NetName=Net*_49 Pin=*-49
+Added Pin To Net: NetName=PD0 Pin=*-51
+Added Pin To Net: NetName=PF7 Pin=*-63
+Added Pin To Net: NetName=PF7 Pin=J1-1
+Added Pin To Net: NetName=VCC Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=VCC Pin=J2-1
+Added Pin To Net: NetName=PA6 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=PA7 Pin=J2-4
+Added Pin To Net: NetName=VCC_2 Pin=J3-1
+Added Pin To Net: NetName=PA2 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=PA0 Pin=J3-4
+Added Pin To Net: NetName=Net*_49 Pin=J4-1
+Added Pin To Net: NetName=Net*_49 Pin=J4-1
+Added Pin To Net: NetName=PG0 Pin=J4-2
+Added Pin To Net: NetName=PG1 Pin=J4-3
+Added Pin To Net: NetName=PG2 Pin=J4-4
+Added Pin To Net: NetName=PG3 Pin=J4-5
+Added Pin To Net: NetName=Net*_49 Pin=J4-6
+Added Pin To Net: NetName=PD0 Pin=J5-1
+Added Pin To Net: NetName=PD0 Pin=J5-1
+Added Pin To Net: NetName=PG4 Pin=J5-2
+Added Pin To Net: NetName=PG5 Pin=J5-3
+Added Pin To Net: NetName=PG6 Pin=J5-4
+Added Pin To Net: NetName=PG7 Pin=J5-5
+Added Pin To Net: NetName=VCC Pin=J6-1
+Added Pin To Net: NetName=VCC Pin=J6-1
+Added Pin To Net: NetName=VCC Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J6-2
+Added Pin To Net: NetName=VCC_2 Pin=J6-3
+Added Pin To Net: NetName=VCC_2 Pin=J6-3
+Added Member To Class: ClassName=Layout_v1 Member=Component * HT66F2390
+Added Member To Class: ClassName=Layout_v1 Member=Component J1 Servo
+Added Member To Class: ClassName=Layout_v1 Member=Component J2 UART
+Added Member To Class: ClassName=Layout_v1 Member=Component J3 ICP
+Added Member To Class: ClassName=Layout_v1 Member=Component J4 L298N
+Added Member To Class: ClassName=Layout_v1 Member=Component J5 L298N
+Added Member To Class: ClassName=Layout_v1 Member=Component J6 Switch
+Added Room: Name=Layout_v1

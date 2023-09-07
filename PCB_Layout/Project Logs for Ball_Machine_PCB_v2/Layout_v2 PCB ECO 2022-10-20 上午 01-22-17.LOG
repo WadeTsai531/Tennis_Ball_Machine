@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=PA7 Pin=J4-15
+Removed Pin From Net: NetName=PA6 Pin=J4-16
+Removed Pin From Net: NetName=PA4 Pin=J4-17
+Removed Pin From Net: NetName=PA3 Pin=J4-18
+Added Pin To Net: NetName=PA3 Pin=J4-15
+Added Pin To Net: NetName=PA4 Pin=J4-16
+Added Pin To Net: NetName=PA6 Pin=J4-17
+Added Pin To Net: NetName=PA7 Pin=J4-18
+Added Room: Name=Layout_v1

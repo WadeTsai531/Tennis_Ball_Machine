@@ -9,6 +9,7 @@
 ###  **第十七屆盛群盃HOLTEK MCU創意大賽  C組8-Bit MCU應用組 銅牌**
 
 <img src="Pic/award.jpg" width="886" height="665">
+
 ## Schedule
 
 ### [2022年全國技專校院學生實務專題製作競賽暨成果展](https://news.stust.edu.tw/id/72114)

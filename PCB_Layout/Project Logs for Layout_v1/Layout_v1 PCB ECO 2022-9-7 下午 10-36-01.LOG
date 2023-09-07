@@ -1,0 +1,98 @@
+Removed Pin From Net: NetName=PF7 Pin=J1-1
+Removed Pin From Net: NetName=VCC Pin=J1-2
+Removed Pin From Net: NetName=GND Pin=J1-3
+Removed Pin From Net: NetName=PA6 Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-3
+Removed Pin From Net: NetName=PA7 Pin=J2-4
+Removed Pin From Net: NetName=PA0 Pin=J3-1
+Removed Pin From Net: NetName=PG0 Pin=J4-2
+Removed Pin From Net: NetName=PG1 Pin=J4-3
+Removed Pin From Net: NetName=PG2 Pin=J4-4
+Removed Pin From Net: NetName=PG3 Pin=J4-5
+Removed Pin From Net: NetName=PD0 Pin=J5-1
+Removed Pin From Net: NetName=PG4 Pin=J5-2
+Removed Pin From Net: NetName=PG5 Pin=J5-3
+Removed Pin From Net: NetName=PG6 Pin=J5-4
+Removed Pin From Net: NetName=PG7 Pin=J5-5
+Removed Pin From Net: NetName=VCC Pin=J6-1
+Removed Pin From Net: NetName=VCC Pin=J6-1
+Removed Pin From Net: NetName=GND Pin=J6-2
+Removed Pin From Net: NetName=GND Pin=J6-2
+Removed Pin From Net: NetName=PA0 Pin=J6-3
+Removed Pin From Net: NetName=PA0 Pin=J6-3
+Removed Pin From Net: NetName=VCC Pin=J8-2
+Removed Pin From Net: NetName=VCC Pin=J9-2
+Removed Pin From Net: NetName=GND Pin=J9-3
+Removed Pin From Net: NetName=VCC Pin=J10-1
+Removed Pin From Net: NetName=GND Pin=J10-2
+Removed Pin From Net: NetName=VCC Pin=MCU-6
+Removed Pin From Net: NetName=PA0 Pin=MCU-22
+Removed Pin From Net: NetName=GND Pin=MCU-23
+Change Component DesignItemId : Designator=J4 Old DesignItemId=L298N New DesignItemId=Servo
+Change Component DesignItemId : Designator=J5 Old DesignItemId=L298N New DesignItemId=Servo
+Change Component DesignItemId : Designator=J10 Old DesignItemId=Power New DesignItemId=L298N
+Change Component DesignItemId : Designator=J9 Old DesignItemId=Servo New DesignItemId=L298N
+Change Component DesignItemId : Designator=J1 Old DesignItemId=Servo New DesignItemId=Power
+Change Component DesignItemId : Designator=J8 Old DesignItemId=Servo New DesignItemId=UART
+Change Component DesignItemId : Designator=J6 Old DesignItemId=Switch New DesignItemId=Servo
+Change Component DesignItemId : Designator=J2 Old DesignItemId=UART New DesignItemId=Switch
+Change Component Footprint: Designator=J4 Old Footprint=L298n-6P New Footprint=Servo_3P
+Change Component Footprint: Designator=J5 Old Footprint=L298n-6P New Footprint=Servo_3P
+Change Component Footprint: Designator=J10 Old Footprint=Power_2P New Footprint=L298n-6P
+Change Component Footprint: Designator=J9 Old Footprint=Servo_3P New Footprint=L298n-6P
+Change Component Footprint: Designator=J1 Old Footprint=Servo_3P New Footprint=Power_2P
+Change Component Footprint: Designator=J8 Old Footprint=Servo_3P New Footprint=UART_4P
+Change Component Footprint: Designator=J6 Old Footprint=Switch_3P New Footprint=Servo_3P
+Change Component Footprint: Designator=J2 Old Footprint=UART_4P New Footprint=Switch_3P
+Change Component Comment : Designator=J5 Old Comment=L298N New Comment=Light
+Change Component Comment : Designator=J4 Old Comment=L298N New Comment=Servo
+Change Component Comment : Designator=J7 Old Comment=Light New Comment=Touch
+Change Component Comment : Designator=J8 Old Comment=Light New Comment=UART
+Change Component Comment : Designator=J10 Old Comment=Power New Comment=L298N
+Change Component Comment : Designator=J1 Old Comment=Servo New Comment=Power
+Change Component Comment : Designator=J6 Old Comment=Switch New Comment=Light
+Change Component Comment : Designator=J9 Old Comment=Touch New Comment=L298N
+Change Component Comment : Designator=J2 Old Comment=UART New Comment=Switch
+Added Pin To Net: NetName=VCC Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=PF7 Pin=J4-1
+Added Pin To Net: NetName=VCC Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Pin To Net: NetName=VCC Pin=J5-2
+Added Pin To Net: NetName=GND Pin=J5-3
+Added Pin To Net: NetName=VCC Pin=J6-2
+Added Pin To Net: NetName=GND Pin=J6-3
+Added Pin To Net: NetName=VCC Pin=J8-1
+Added Pin To Net: NetName=PA6 Pin=J8-2
+Added Pin To Net: NetName=PA7 Pin=J8-4
+Added Pin To Net: NetName=PG0 Pin=J9-2
+Added Pin To Net: NetName=PG1 Pin=J9-3
+Added Pin To Net: NetName=PG2 Pin=J9-4
+Added Pin To Net: NetName=PG3 Pin=J9-5
+Added Pin To Net: NetName=PD0 Pin=J10-1
+Added Pin To Net: NetName=PG4 Pin=J10-2
+Added Pin To Net: NetName=PG5 Pin=J10-3
+Added Pin To Net: NetName=PG6 Pin=J10-4
+Added Pin To Net: NetName=PG7 Pin=J10-5
+Added Pin To Net: NetName=PA1 Pin=J5-1
+Added Pin To Net: NetName=PA1 Pin=MCU-15
+Added Net: Name=PA1
+Added Pin To Net: NetName=PA3 Pin=J6-1
+Added Pin To Net: NetName=PA3 Pin=MCU-17
+Added Net: Name=PA3
+Added Pin To Net: NetName=PA4 Pin=J7-1
+Added Pin To Net: NetName=PA4 Pin=MCU-18
+Added Net: Name=PA4
+Added Pin To Net: NetName=PC6 Pin=J9-1
+Added Pin To Net: NetName=PC6 Pin=J9-6
+Added Pin To Net: NetName=PC6 Pin=MCU-49
+Added Net: Name=PC6
+Added Pin To Net: NetName=VCC_2 Pin=J2-3
+Added Pin To Net: NetName=VCC_2 Pin=J2-3
+Added Pin To Net: NetName=VCC_2 Pin=J3-1
+Added Net: Name=VCC_2
+Added Pin To Net: NetName=VDD Pin=J2-2
+Added Pin To Net: NetName=VDD Pin=J2-2
+Added Pin To Net: NetName=VDD Pin=MCU-6
+Added Net: Name=VDD
+Added Room: Name=Layout_v1

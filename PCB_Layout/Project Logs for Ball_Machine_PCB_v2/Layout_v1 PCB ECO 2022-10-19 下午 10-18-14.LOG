@@ -1,0 +1,3 @@
+Added Component: Designator=J11(IC_Port_24P)
+Added Member To Class: ClassName=Layout_v1 Member=Component J11 IN_Port
+Added Room: Name=Layout_v1

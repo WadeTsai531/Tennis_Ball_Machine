@@ -1,0 +1,25 @@
+Added Component: Designator=J7(Servo_3P)
+Added Component: Designator=J8(Servo_3P)
+Added Component: Designator=J9(Servo_3P)
+Added Pin To Net: NetName=VCC_2 Pin=*-19
+Added Pin To Net: NetName=VCC_2 Pin=J3-4
+Added Pin To Net: NetName=VCC Pin=J7-2
+Added Pin To Net: NetName=GND Pin=J7-3
+Added Pin To Net: NetName=VCC Pin=J8-2
+Added Pin To Net: NetName=GND Pin=J8-3
+Added Pin To Net: NetName=VCC Pin=J9-2
+Added Pin To Net: NetName=GND Pin=J9-3
+Change Net Name : Old Net Name=VCC_2 New Net Name=PA0
+Added Pin To Net: NetName=Net*_15 Pin=*-15
+Added Pin To Net: NetName=Net*_15 Pin=J7-1
+Added Net: Name=Net*_15
+Added Pin To Net: NetName=Net*_17 Pin=*-17
+Added Pin To Net: NetName=Net*_17 Pin=J8-1
+Added Net: Name=Net*_17
+Added Pin To Net: NetName=Net*_18 Pin=*-18
+Added Pin To Net: NetName=Net*_18 Pin=J9-1
+Added Net: Name=Net*_18
+Added Member To Class: ClassName=Layout_v1 Member=Component J7 Light
+Added Member To Class: ClassName=Layout_v1 Member=Component J8 Light
+Added Member To Class: ClassName=Layout_v1 Member=Component J9 Touch
+Added Room: Name=Layout_v1

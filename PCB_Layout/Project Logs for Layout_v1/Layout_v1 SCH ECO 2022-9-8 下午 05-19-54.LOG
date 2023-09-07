@@ -1,0 +1,3 @@
+Remove Pin=J2-1 From Net=VCC
+Remove Pin=J2-2 From Net=VDD
+Remove Pin=J2-3 From Net=VCC_2

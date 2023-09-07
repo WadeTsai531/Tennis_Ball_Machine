@@ -1,0 +1,25 @@
+Added Component: Designator=*(IC_Port_24P)
+Added Pin To Net: NetName=VCC Pin=*-0
+Added Pin To Net: NetName=VCC Pin=*-1
+Added Pin To Net: NetName=PH0 Pin=*-2
+Added Pin To Net: NetName=PH1 Pin=*-3
+Added Pin To Net: NetName=PG4 Pin=*-4
+Added Pin To Net: NetName=PG5 Pin=*-5
+Added Pin To Net: NetName=PG6 Pin=*-6
+Added Pin To Net: NetName=PG7 Pin=*-7
+Added Pin To Net: NetName=PG0 Pin=*-8
+Added Pin To Net: NetName=PG1 Pin=*-9
+Added Pin To Net: NetName=PG2 Pin=*-10
+Added Pin To Net: NetName=PG3 Pin=*-11
+Added Pin To Net: NetName=PC6 Pin=*-12
+Added Pin To Net: NetName=PD0 Pin=*-13
+Added Pin To Net: NetName=PF7 Pin=*-14
+Added Pin To Net: NetName=PA7 Pin=*-15
+Added Pin To Net: NetName=PA6 Pin=*-16
+Added Pin To Net: NetName=PA4 Pin=*-17
+Added Pin To Net: NetName=PA3 Pin=*-18
+Added Pin To Net: NetName=PA1 Pin=*-19
+Added Pin To Net: NetName=GND Pin=*-22
+Added Pin To Net: NetName=GND Pin=*-23
+Added Member To Class: ClassName=Layout_v1 Member=Component * IN_Port
+Added Room: Name=Layout_v1

@@ -1,0 +1,7 @@
+Added Component: Designator=J3(ICP_4P)
+Added Pin To Net: NetName=PA0 Pin=J3-1
+Added Pin To Net: NetName=PA2 Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=PA0 Pin=J3-4
+Added Member To Class: ClassName=Layout_v1 Member=Component J3 ICP
+Added Room: Name=Layout_v1
