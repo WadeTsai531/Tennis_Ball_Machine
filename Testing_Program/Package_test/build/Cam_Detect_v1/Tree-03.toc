@@ -1,0 +1,5 @@
+('c:\\users\\uesr\\appdata\\local\\programs\\python\\python37\\lib\\site-packages\\opencv-4.5.1-py3.7.egg',
+ None,
+ {'*.py', '*.pyd', 'EGG-INFO', '*.pyc', '*.cp37-win_amd64.pyd', '*.pyw'},
+ 'DATA',
+ [])
