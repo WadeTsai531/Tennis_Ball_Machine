@@ -1,0 +1,198 @@
+
+Linker Version 8.7.7.190806
+Input Object File: D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ
+Input Object File: D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\STARTUP1_L.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0002h     0010h    000fh      CODE               _ISR_ADC (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0011h     001bh    000bh      CODE               _Send_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     001ch     001fh    0004h      CODE               @ISR_ADC_code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0020h     0033h    0014h      CODE               _delay (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     003ch     003fh    0004h      CODE               @Uart_R_code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0040h     005bh    001ch      CODE               _Uart_R (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     005ch     005fh    0004h      CODE               @ROMDATA_BASE (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\STARTUP1_L.OBJ)
+     00h     0062h     0084h    0023h      CODE               @start (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0085h     0095h    0011h      CODE               _UART_Setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0096h     00c2h    002dh      CODE               _main (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     00c3h     00f2h    0030h      CODE               _Read_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0080h     0080h    0001h      DATA     3         @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     3         @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     3         @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     2         @data_r11c (isr:ra~rh)
+     00h     0084h     0084h    0001h      DATA     2         @data_r21c (isr:ra~rh)
+     00h     0085h     0085h    0001h      DATA     4         @data_rb3c (isr:ra~rh)
+     00h     0086h     0086h    0001h      DATA     4         @data_rc3c (isr:ra~rh)
+     00h     0087h     0087h    0001h      DATA     3         @data_rd3c (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     3         @data_re3c (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     2         @data_rf3c (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     2         @data_rg3c (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     0091h     0092h    0002h      DATA     3         @HCCINIT_kn (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0093h     0094h    0002h      DATA     1.5       @HCCINIT0_data_H (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0095h     0096h    0002h      DATA     1.5       @HCCINIT0_data_L (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0097h     00aah    0014h      DATA     0         @HCCINIT0_R_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     00abh     00abh    0001h      DATA     2         @data_r31c (isr:ra~rh)
+     00h     00ach     00ach    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     00h     00adh     00adh    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     00h     00aeh     00aeh    0001h      DATA     2         @data_r53c (isr:ra~rh)
+     00h     00afh     00afh    0001h      DATA     2         @data_r63c (isr:ra~rh)
+     00h     00b0h     00b0h    0001h      DATA     2         @data_r73c (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     008dh     008dh    0000h      LOCAL    0         @dummy28 (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _ISR_ADC (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         @dummy60 (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _Uart_R (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _Read_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     0091h     0091h    0000h      LOCAL    0         @dummy (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008fh     0090h    0002h      LOCAL    3         _main (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _UART_Setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008dh    0001h      LOCAL    2         _Send_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+     00h     008dh     008eh    0002h      LOCAL    2         _delay (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0002h              _ISR_ADC
+     0097h              _R_Data
+     00c3h              _Read_Data
+     0011h              _Send_Data
+     0085h              _UART_Setup
+     0040h              _Uart_R
+     0093h              _data_H
+     0095h              _data_L
+     0020h              _delay
+     008eh              _delay_2
+     0091h              _kn
+     0096h              _main
+     0083h              r11c
+     008bh              r13c
+     0084h              r21c
+     008ch              r23c
+     00abh              r31c
+     00ach              r33c
+     00adh              r43c
+     00aeh              r53c
+     00afh              r63c
+     00b0h              r73c
+     0080h              ra
+     0081h              rb
+     0085h              rb3c
+     0082h              rc
+     0086h              rc3c
+     0087h              rd3c
+     0088h              re3c
+     0089h              rf3c
+     008ah              rg3c
+     005bh              startup_value_1
+
+     Address            Public by Value
+     0002h              _ISR_ADC
+     0011h              _Send_Data
+     0020h              _delay
+     0040h              _Uart_R
+     005bh              startup_value_1
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              r11c
+     0084h              r21c
+     0085h              _UART_Setup
+     0085h              rb3c
+     0086h              rc3c
+     0087h              rd3c
+     0088h              re3c
+     0089h              rf3c
+     008ah              rg3c
+     008bh              r13c
+     008ch              r23c
+     008eh              _delay_2
+     0091h              _kn
+     0093h              _data_H
+     0095h              _data_L
+     0096h              _main
+     0097h              _R_Data
+     00abh              r31c
+     00ach              r33c
+     00adh              r43c
+     00aeh              r53c
+     00afh              r63c
+     00b0h              r73c
+     00c3h              _Read_Data
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     00e9h    2%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     00e9h    0%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0031h    38%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     0031h    1%
+
+Use Stack Count
+_ISR_ADC: 0
+_Uart_R: 1
+_main: 1
+
+Call Tree
+    @dummy28
+        _ISR_ADC (0)
+    @dummy60
+        _Uart_R (0)
+            _Read_Data (1)
+    @dummy
+        _main (0)
+            _UART_Setup (1)
+            _Send_Data (1)
+            _delay (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'D:\Wade\Project\Tennis_Ball_Machine\Firmware\Light_Sensor_analog_v1\LIGHT_SENSOR_ANALOG_V1.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)

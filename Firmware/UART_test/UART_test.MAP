@@ -1,0 +1,147 @@
+
+Linker Version 8.7.7.190806
+Input Object File: D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ
+Input Object File: D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\STARTUP1_L.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0002h     0024h    0023h      CODE               @start (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0025h     0035h    0011h      CODE               _UART_Setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0036h     0039h    0004h      CODE               @ROMDATA_BASE (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\STARTUP1_L.OBJ)
+     00h     003ch     003fh    0004h      CODE               @Uart_R_code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0040h     005bh    001ch      CODE               _Uart_R (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0062h     0075h    0014h      CODE               _main (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0076h     009bh    0026h      CODE               _Read_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0080h     0080h    0001h      DATA     4         @data_rb3c (isr:ra~rh)
+     00h     0081h     0081h    0001h      DATA     4         @data_rc3c (isr:ra~rh)
+     00h     0082h     0082h    0001h      DATA     3         @data_ra3c (isr:ra~rh)
+     00h     0083h     0083h    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     0084h     0084h    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     0086h     0087h    0002h      DATA     3         @HCCINIT_kn (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0088h     0091h    000ah      DATA     0.1       @HCCINIT0_R_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0092h     009bh    000ah      DATA     0         @HCCINIT0_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     009ch     009ch    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     00h     009dh     009dh    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     00h     009eh     009eh    0001h      DATA     2         @data_r53c (isr:ra~rh)
+     00h     009fh     009fh    0001h      DATA     2         @data_r63c (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     2         @data_r73c (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0086h     0086h    0000h      LOCAL    0         @dummy (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0085h     0085h    0001h      LOCAL    3         _main (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0085h     0085h    0000h      LOCAL    0         _UART_Setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0085h     0085h    0000h      LOCAL    0         @dummy60 (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0085h     0085h    0000h      LOCAL    0         _Uart_R (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+     00h     0085h     0085h    0000h      LOCAL    0         _Read_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0092h              _Data
+     0088h              _R_Data
+     0076h              _Read_Data
+     0025h              _UART_Setup
+     0040h              _Uart_R
+     0086h              _kn
+     0062h              _main
+     0083h              r13c
+     0084h              r23c
+     009ch              r33c
+     009dh              r43c
+     009eh              r53c
+     009fh              r63c
+     00a0h              r73c
+     0082h              ra3c
+     0080h              rb3c
+     0081h              rc3c
+     0035h              startup_value_1
+
+     Address            Public by Value
+     0025h              _UART_Setup
+     0035h              startup_value_1
+     0040h              _Uart_R
+     0062h              _main
+     0076h              _Read_Data
+     0080h              rb3c
+     0081h              rc3c
+     0082h              ra3c
+     0083h              r13c
+     0084h              r23c
+     0086h              _kn
+     0088h              _R_Data
+     0092h              _Data
+     009ch              r33c
+     009dh              r43c
+     009eh              r53c
+     009fh              r63c
+     00a0h              r73c
+
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     0094h    1%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     0094h    0%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0021h    25%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     0021h    0%
+
+Use Stack Count
+_main: 1
+_Uart_R: 1
+
+Call Tree
+    @dummy
+        _main (0)
+            _UART_Setup (1)
+    @dummy60
+        _Uart_R (0)
+            _Read_Data (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'D:\Wade\Project\Tennis_Ball_Machine\Firmware\UART_test\UART_TEST.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)

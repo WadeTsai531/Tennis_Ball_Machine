@@ -1,0 +1,208 @@
+
+Linker Version 8.7.7.190806
+Input Object File: D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ
+Input Object File: D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\STARTUP1_L.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrmc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0001h    0002h      CODE               @code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0004h     0007h    0004h      CODE               @Sen_code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0008h     0023h    001ch      CODE               _Uart_R (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0024h     0028h    0005h      CODE               @ROMDATA_BASE (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\STARTUP1_L.OBJ)
+     00h     002ah     0034h    000bh      CODE               _Send_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     003ch     003fh    0004h      CODE               @Uart_R_code (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0040h     0064h    0025h      CODE               _Sen (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     006bh     008dh    0023h      CODE               @start (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008eh     00a1h    0014h      CODE               _delay (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     00a2h     00bdh    001ch      CODE               _stm_setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     00beh     00ceh    0011h      CODE               _UART_Setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     00cfh     010fh    0041h      CODE               _main (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0110h     0135h    0026h      CODE               _Read_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0080h     0080h    0001h      DATA     3         @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     3         @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     3         @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     4         @data_rb3c (isr:ra~rh)
+     00h     0084h     0084h    0001h      DATA     4         @data_rc3c (isr:ra~rh)
+     00h     0085h     0085h    0001h      DATA     3         @data_ra3c (isr:ra~rh)
+     00h     0086h     0086h    0001h      DATA     2         @data_r13c (isr:ra~rh)
+     00h     0087h     0087h    0001h      DATA     2         @data_r23c (isr:ra~rh)
+     00h     0088h     0088h    0001h      DATA     2         @data_r104 (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     2         @data_r204 (isr:ra~rh)
+     00h     008dh     008dh    0001h      DATA     4         @HCCINIT_dir (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008eh     008fh    0002h      DATA     3         @HCCINIT_kn (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     0090h     0099h    000ah      DATA     0         @HCCINIT0_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     009ah     00a3h    000ah      DATA     0         @HCCINIT0_R_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     00a4h     00a4h    0001h      DATA     2         @data_r33c (isr:ra~rh)
+     00h     00a5h     00a5h    0001h      DATA     2         @data_r43c (isr:ra~rh)
+     00h     00a6h     00a6h    0001h      DATA     2         @data_r53c (isr:ra~rh)
+     00h     00a7h     00a7h    0001h      DATA     2         @data_r63c (isr:ra~rh)
+     00h     00a8h     00a8h    0001h      DATA     2         @data_r73c (isr:ra~rh)
+     00h     00a9h     00a9h    0001h      DATA     2         @data_r304 (isr:ra~rh)
+     00h     00aah     00aah    0001h      DATA     2         @data_r404 (isr:ra~rh)
+     00h     00abh     00abh    0001h      DATA     2         @data_r504 (isr:ra~rh)
+     00h     00ach     00ach    0001h      DATA     2         @data_r604 (isr:ra~rh)
+     00h     00adh     00adh    0001h      DATA     2         @data_r704 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     008bh     008bh    0000h      LOCAL    0         @dummy60 (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008bh    0000h      LOCAL    0         _Uart_R (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008bh    0000h      LOCAL    0         _Read_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008bh    0000h      LOCAL    0         @dummy4 (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008bh    0000h      LOCAL    0         _Sen (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008ah     008ah    0001h      LOCAL    2         _Send_Data (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         @dummy (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _main (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008bh    0000h      LOCAL    0         _UART_Setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008bh    0000h      LOCAL    0         _stm_setup (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+     00h     008bh     008ch    0002h      LOCAL    5         _delay (D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0090h              _Data
+     009ah              _R_Data
+     0110h              _Read_Data
+     0040h              _Sen
+     002ah              _Send_Data
+     00beh              _UART_Setup
+     0008h              _Uart_R
+     008eh              _delay
+     008bh              _delay_2
+     008dh              _dir
+     008eh              _kn
+     00cfh              _main
+     00a2h              _stm_setup
+     0088h              r104
+     0086h              r13c
+     0089h              r204
+     0087h              r23c
+     00a9h              r304
+     00a4h              r33c
+     00aah              r404
+     00a5h              r43c
+     00abh              r504
+     00a6h              r53c
+     00ach              r604
+     00a7h              r63c
+     00adh              r704
+     00a8h              r73c
+     0080h              ra
+     0085h              ra3c
+     0081h              rb
+     0083h              rb3c
+     0082h              rc
+     0084h              rc3c
+     0023h              startup_value_1
+
+     Address            Public by Value
+     0008h              _Uart_R
+     0023h              startup_value_1
+     002ah              _Send_Data
+     0040h              _Sen
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rb3c
+     0084h              rc3c
+     0085h              ra3c
+     0086h              r13c
+     0087h              r23c
+     0088h              r104
+     0089h              r204
+     008bh              _delay_2
+     008dh              _dir
+     008eh              _kn
+     008eh              _delay
+     0090h              _Data
+     009ah              _R_Data
+     00a2h              _stm_setup
+     00a4h              r33c
+     00a5h              r43c
+     00a6h              r53c
+     00a7h              r63c
+     00a8h              r73c
+     00a9h              r304
+     00aah              r404
+     00abh              r504
+     00ach              r604
+     00adh              r704
+     00beh              _UART_Setup
+     00cfh              _main
+     0110h              _Read_Data
+
+Warning(L3009) : Same sub function exists between ISR(04H) CMG and MAIN CMG: _Send_Data
+
+ROM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       2000h     0126h    3%
+     01h       2000h     0000h    0%
+     02h       2000h     0000h    0%
+     03h       2000h     0000h    0%
+     04h       2000h     0000h    0%
+     05h       2000h     0000h    0%
+     06h       2000h     0000h    0%
+     07h       2000h     0000h    0%
+     Total     10000h     0126h    0%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     002eh    35%
+     01h       0080h     0000h    0%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     06h       0080h     0000h    0%
+     07h       0080h     0000h    0%
+     08h       0080h     0000h    0%
+     09h       0080h     0000h    0%
+     0ah       0080h     0000h    0%
+     0bh       0080h     0000h    0%
+     0ch       0080h     0000h    0%
+     0dh       0080h     0000h    0%
+     0eh       0080h     0000h    0%
+     0fh       0080h     0000h    0%
+     10h       0080h     0000h    0%
+     11h       0080h     0000h    0%
+     12h       0080h     0000h    0%
+     13h       0080h     0000h    0%
+     14h       0080h     0000h    0%
+     15h       0080h     0000h    0%
+     16h       0080h     0000h    0%
+     17h       0080h     0000h    0%
+     18h       0080h     0000h    0%
+     19h       0080h     0000h    0%
+     1ah       0080h     0000h    0%
+     1bh       0080h     0000h    0%
+     1ch       0080h     0000h    0%
+     1dh       0080h     0000h    0%
+     1eh       0080h     0000h    0%
+     1fh       0080h     0000h    0%
+     Total     1000h     002eh    1%
+
+Use Stack Count
+_Uart_R: 1
+_Sen: 1
+_main: 1
+
+Call Tree
+    @dummy60
+        _Uart_R (0)
+            _Read_Data (1)
+    @dummy4
+        _Sen (0)
+            _Send_Data (1)
+    @dummy
+        _main (0)
+            _UART_Setup (1)
+            _stm_setup (1)
+            _Send_Data (1)
+            _delay (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'D:\Wade\Project\Tennis_Ball_Machine\Firmware\Interrupt\INTERRUPT.OBJ'
+
+Total 0 error(s), Total 1 Warning(s)
