@@ -4,8 +4,8 @@ import os
 
 class Main:
     def __init__(self):
-        self.xml_Dataset_path = '../Dataset/COCO_xml/'
-        self.yolo_Dataset_path = '../Dataset/COCO_Image/'
+        self.xml_Dataset_path = 'G:\\Golden_0600-0698'
+        self.yolo_Dataset_path = 'F:\\Project\Realtak_Project\\Datasets\\Cleaned_golden'
 
         for file in os.listdir(self.xml_Dataset_path):
             if file.split('.')[1] == 'xml':
